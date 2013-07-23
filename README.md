@@ -1,4 +1,4 @@
-# Resque::Smtp
+# Resque::SMTP
 
 TODO: Write a gem description
 
@@ -19,6 +19,11 @@ Or install it yourself as:
 ## Usage
 
 TODO: Write usage instructions here
+
+## TODO
+
+* Configure job queue
+* Write some tests
 
 ## Contributing
 

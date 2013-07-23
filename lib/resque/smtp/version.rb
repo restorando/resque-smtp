@@ -1,5 +1,5 @@
 module Resque
-  module Smtp
-    VERSION = "0.0.1"
+  module SMTP
+    VERSION = "0.1.0"
   end
 end
