@@ -1,4 +1,4 @@
-Copyright (c) 2013 Juan Barreneche
+Copyright (c) 2013 Restorando
 
 MIT License
 
