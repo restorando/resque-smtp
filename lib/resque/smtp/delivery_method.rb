@@ -1,4 +1,5 @@
 require 'resque/smtp'
+require 'resque'
 
 module Resque::SMTP
 

@@ -1,9 +1,9 @@
-require "resque/smtp/version"
+require 'resque/smtp/version'
 
 module Resque
   module SMTP
-    autoload :EmailJob,       "resque/smtp/email_job"
-    autoload :DeliveryMethod, "resque/smtp/delivery_method"
+    autoload :EmailJob,       'resque/smtp/email_job'
+    autoload :DeliveryMethod, 'resque/smtp/delivery_method'
 
     class << self
       attr_accessor :smtp_settings

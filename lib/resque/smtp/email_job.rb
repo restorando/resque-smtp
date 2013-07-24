@@ -21,7 +21,7 @@ module Resque::SMTP
     def self.perform(encoded_mail)
 
       mail = Mail.new(encoded_mail)
-      mail.delivery_method :smtp, Resque::SMTP.smtp_settings
+      mail.delivery_method :smtp, Resque::SMTP.smtp_settings || {}
 
       # Send without informing observers and interceptors and bypass
       # checking perform_deliveries and raise_delivery_errors.

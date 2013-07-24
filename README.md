@@ -67,10 +67,6 @@ resque-smtp will use the `action_mailer.smtp_settings` to send the mails in the 
 
 3. Done!
 
-## TODO
-
-* Write some tests
-
 ## Contributing
 
 1. Fork it
