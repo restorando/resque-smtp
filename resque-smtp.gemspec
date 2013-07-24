@@ -6,7 +6,7 @@ require 'resque/smtp/version'
 Gem::Specification.new do |spec|
   spec.name          = "resque-smtp"
   spec.version       = Resque::SMTP::VERSION
-  spec.authors       = ["Restoradno"]
+  spec.authors       = ["Restorando"]
   spec.email         = ["dev@restorando.com"]
   spec.description   = %q{Deliver mail in a resque job}
   spec.summary       = %q{Adds a new delivery method to mail to allow delivering mails inside a job}
