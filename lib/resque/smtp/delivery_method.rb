@@ -16,6 +16,8 @@ module Resque::SMTP
   #
   class DeliveryMethod
 
+    attr_reader :settings
+
     def initialize(settings)
       @settings = settings
       EmailJob.queue = settings[:queue] if settings[:queue]
